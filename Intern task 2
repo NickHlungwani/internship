@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>COVID19 Pre-Screening Form</h2>
+
+<form action="/action_page.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="Muhluri "><br>
+  
+  
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Hlungwani "><br><br>
+  
+  <label for="lname">Address:</label><br>
+  <input type="text" id="Address" name="Address " value="Tembisa "><br><br>
+  
+  <label for="lname">Symptoms :</label><br>
+  
+  <input type="text" id="Symptoms " name="Symptoms " value="Fever"><br><br>
+  
+  
+  <input type="submit" value="Submit">
+</form> 
+
+<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+
+</body>
+</html>
